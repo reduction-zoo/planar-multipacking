@@ -1,0 +1,4259 @@
+[
+  {
+    "source": {
+      "vertices": 0,
+      "edges": [],
+      "threshold": 0
+    },
+    "kind": "edge",
+    "expected": {
+      "set": []
+    }
+  },
+  {
+    "source": {
+      "vertices": 0,
+      "edges": [],
+      "threshold": 1
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 1,
+      "edges": [],
+      "threshold": 0
+    },
+    "kind": "edge",
+    "expected": {
+      "set": []
+    }
+  },
+  {
+    "source": {
+      "vertices": 1,
+      "edges": [],
+      "threshold": 1
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        0
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 1,
+      "edges": [],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 2,
+      "edges": [],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 1
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        1
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "edge",
+    "expected": {
+      "set": [
+        0,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "edge",
+    "expected": {
+      "status": "NO-SOLUTION"
+    }
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        5,
+        6
+      ]
+    },
+    "seed": 0
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 1
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        2,
+        3
+      ]
+    },
+    "seed": 2
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4
+      ]
+    },
+    "seed": 3
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        4
+      ]
+    },
+    "seed": 4
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    "seed": 5
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4,
+        5,
+        7
+      ]
+    },
+    "seed": 6
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        3,
+        5
+      ]
+    },
+    "seed": 7
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        3,
+        4
+      ]
+    },
+    "seed": 8
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 9
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        2,
+        4,
+        7
+      ]
+    },
+    "seed": 10
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    "seed": 11
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        2,
+        3,
+        6
+      ]
+    },
+    "seed": 12
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "seed": 13
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 14
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        3,
+        4
+      ]
+    },
+    "seed": 15
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        2,
+        4
+      ]
+    },
+    "seed": 16
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 17
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        4
+      ]
+    },
+    "seed": 18
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 19
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        4
+      ]
+    },
+    "seed": 20
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        3,
+        4
+      ]
+    },
+    "seed": 21
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4
+      ]
+    },
+    "seed": 22
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 23
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 24
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        3,
+        4
+      ]
+    },
+    "seed": 25
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4
+      ]
+    },
+    "seed": 26
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4,
+        6
+      ]
+    },
+    "seed": 27
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3
+      ]
+    },
+    "seed": 28
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 29
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "seed": 30
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 33
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4,
+        7
+      ]
+    },
+    "seed": 34
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    "seed": 35
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        5
+      ]
+    },
+    "seed": 36
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 37
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        6
+      ]
+    },
+    "seed": 38
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4
+      ]
+    },
+    "seed": 39
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        4,
+        6
+      ]
+    },
+    "seed": 40
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    "seed": 41
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 43
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 44
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 45
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3
+      ]
+    },
+    "seed": 46
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        2,
+        4,
+        7
+      ]
+    },
+    "seed": 48
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 50
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4
+      ]
+    },
+    "seed": 51
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        4
+      ]
+    },
+    "seed": 52
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4,
+        5,
+        6
+      ]
+    },
+    "seed": 53
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        3,
+        4
+      ]
+    },
+    "seed": 54
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 55
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        4,
+        7
+      ]
+    },
+    "seed": 56
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 57
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        7
+      ]
+    },
+    "seed": 58
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 59
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        2,
+        4
+      ]
+    },
+    "seed": 60
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 61
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3,
+        7
+      ]
+    },
+    "seed": 62
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 63
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        5,
+        6
+      ]
+    },
+    "seed": 64
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        5,
+        6
+      ]
+    },
+    "seed": 65
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 68
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 69
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3
+      ]
+    },
+    "seed": 70
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 71
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3
+      ]
+    },
+    "seed": 72
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 73
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        6
+      ]
+    },
+    "seed": 74
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        4,
+        6
+      ]
+    },
+    "seed": 75
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        3,
+        4
+      ]
+    },
+    "seed": 76
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 77
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        4
+      ]
+    },
+    "seed": 78
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 79
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        5
+      ]
+    },
+    "seed": 80
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4,
+        6,
+        7
+      ]
+    },
+    "seed": 81
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4
+      ]
+    },
+    "seed": 82
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    "seed": 83
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        4
+      ]
+    },
+    "seed": 84
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        4
+      ]
+    },
+    "seed": 85
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        3
+      ]
+    },
+    "seed": 86
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 87
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4,
+        6
+      ]
+    },
+    "seed": 88
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 89
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 2
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        4
+      ]
+    },
+    "seed": 90
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 91
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        5,
+        6
+      ]
+    },
+    "seed": 92
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        5,
+        6
+      ]
+    },
+    "seed": 93
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        5,
+        7
+      ]
+    },
+    "seed": 94
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 95
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        5
+      ]
+    },
+    "seed": 96
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        3,
+        4
+      ]
+    },
+    "seed": 97
+  },
+  {
+    "source": {
+      "vertices": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        3,
+        4
+      ]
+    },
+    "seed": 98
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 99
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 101
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        1,
+        3
+      ]
+    },
+    "seed": 102
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3,
+        6
+      ]
+    },
+    "seed": 103
+  },
+  {
+    "source": {
+      "vertices": 4,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        0,
+        2,
+        3
+      ]
+    },
+    "seed": 104
+  },
+  {
+    "source": {
+      "vertices": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "threshold": 5
+    },
+    "kind": "random",
+    "expected": {
+      "status": "NO-SOLUTION"
+    },
+    "seed": 105
+  },
+  {
+    "source": {
+      "vertices": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "threshold": 4
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    "seed": 106
+  },
+  {
+    "source": {
+      "vertices": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "threshold": 3
+    },
+    "kind": "random",
+    "expected": {
+      "set": [
+        1,
+        2,
+        4
+      ]
+    },
+    "seed": 107
+  }
+]
