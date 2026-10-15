@@ -1,0 +1,7 @@
+{
+  "id": "Q032",
+  "source_definition": "The source gives a planar graph of maximum degree three and a bound k. Its outputs are independent vertex sets of size at least k, or NO-SOLUTION.",
+  "target_definition": "Given a planar graph G and integer t, find at least t vertices M such that every radius-r ball contains at most r members of M for every vertex and every integer 1\u2264r\u2264the number of vertices, or report NO-SOLUTION.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}

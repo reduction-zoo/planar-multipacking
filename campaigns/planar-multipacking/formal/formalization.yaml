@@ -1,0 +1,68 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "planar-multipacking: open question",
+    "description": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+    "authors": [
+      "Xiwei Pan",
+      "GPT-6"
+    ],
+    "responsible_maintainers": [
+      "Xiwei Pan"
+    ],
+    "license": "Apache-2.0"
+  },
+  "sources": [
+    {
+      "title": "Q032 board definition",
+      "id": "record.json",
+      "type": "problem statement",
+      "relationship": "formalizes"
+    }
+  ],
+  "status": {
+    "scope": "Statement only; no reduction or proof supplied. Counts exclude Challenge.lean and count its unfilled Solution.lean copy.",
+    "sorry_count": 1,
+    "sorry_in_definitions": 0,
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice",
+      "sorryAx"
+    ]
+  },
+  "fidelity": {
+    "divergences": "Planarity is specified by existence of a crossing-free rational straight-line drawing of the simple graph; the drawing is not supplied as input. This uses the standard equivalence between finite planar simple graphs and rational straight-line drawings. The legality predicate is noncomputable specification data, not an oracle supplied to F or G. Graphs may be disconnected. A multipacking checks every center and every integer radius from one through the vertex count, including other components only when reachable. SEMANTIC REVIEW: planarity is represented by existence of a rational straight-line plane drawing. Agreement with abstract planar simple graphs uses the planar grid-drawing theorem; that auxiliary equivalence is not separately proved here."
+  },
+  "review": {
+    "status": "self-assessed; proof absent",
+    "reviewers": [],
+    "notes": "Local build and axiom audit are recorded in evidence/statement. Comparator execution exits at the missing Linux bubblewrap prerequisite; no statement-agreement or Linux CI pass is claimed."
+  },
+  "alignment": {
+    "namespace": "PlanarMultipacking",
+    "statements": [
+      {
+        "source": "record.json",
+        "lean": "PlanarMultipacking.solve",
+        "module": "Challenge",
+        "status": "open; statement only"
+      }
+    ]
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "models": [
+          "GPT-6"
+        ],
+        "framework": "Codex",
+        "tool_setup": "Lean 4.35.0, pinned Mathlib, native semantic examples, local axiom audit; Linux comparator configured but unavailable on macOS",
+        "prompting_notes": "State the fixed board question without proving it; preserve the Q001 reduction contract and flag unresolved modelling choices."
+      }
+    ],
+    "notes": "No mathematical solution or independent review is claimed."
+  },
+  "acknowledgements": "Lean, Mathlib, and the Q001 comparator project at 6e5d9d7aa425db5f01ee44f4c4e1710cf2993fda."
+}
